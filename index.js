@@ -1,5 +1,6 @@
 const express = require('express');
 require('dotenv').config();
+require('./models/User');
 require('./services/passport');
 const authRouter = require('./routes/authRoutes');
 const connectMongo = require('./db/connect');
