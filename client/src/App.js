@@ -1,11 +1,13 @@
+import { Routes, Route } from 'react-router-dom';
+
+const Landing = () => <h1>Landing</h1>;
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <a className="App-link" href="/auth/google">
-          Login with Google
-        </a>
-      </header>
+      <Routes>
+        <Route exact path="/" Component={Landing} />
+      </Routes>
     </div>
   );
 }
