@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <nav>
       <div className="nav-wrapper">
-        <a href="#" className="brand-logo">
+        <a href="#" className="left brand-logo">
           Surveys
         </a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">

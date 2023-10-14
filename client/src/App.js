@@ -7,7 +7,7 @@ const NewSurvey = () => <h1>NewSurvey</h1>;
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Header />
       <Routes>
         <Route exact path="/" Component={Landing} />
